@@ -20,4 +20,4 @@ RUN pip3 install -r ./requirements.txt
 WORKDIR /app
 COPY ./ /app
 
-CMD ["bash", "-c", "export $(cat ./.env | xargs) && python3 ./app/app.py"]
+CMD ["bash", "-c", "export $(cat ./.env | xargs) && python3 ./main.py"]

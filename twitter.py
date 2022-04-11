@@ -31,7 +31,7 @@ def send_message(listingId, initialCost, ownerPercent, borrowerPercent, otherPer
     if gotchiName == "":
         gotchiName = "Unnamed"
     message = f"""
-Gotchi "{gotchiName}" with BRS at {gotchiBRS} is available for lending !
+Gotchi "{gotchiName}" with {gotchiBRS} BRS is available for lending !
 
 Initial cost: {initialCost:.3f} $GHST for {timeLend} HRS
 
